@@ -90,7 +90,7 @@ export default function Hero() {
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="group relative inline-flex items-center gap-2 px-8 py-4 bg-brand-neon text-bg-dark font-black font-syne text-xl uppercase tracking-wider rounded-xl overflow-hidden"
+          className="group relative inline-flex items-center gap-2 px-6 py-3 md:px-8 md:py-4 bg-brand-neon text-bg-dark font-black font-syne text-lg md:text-xl uppercase tracking-wider rounded-xl overflow-hidden"
         >
           <span className="absolute inset-0 bg-brand-neon-light transition-transform duration-300 translate-y-full group-hover:translate-y-0" />
           <span className="relative z-10 flex items-center gap-2">

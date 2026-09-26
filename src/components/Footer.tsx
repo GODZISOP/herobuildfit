@@ -85,7 +85,7 @@ export default function Footer() {
             onClick={handleCTA}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="group relative inline-flex items-center gap-4 px-8 py-5 bg-gradient-to-r from-brand-neon to-brand-neon-light text-bg-dark rounded-2xl shadow-[0_0_40px_rgba(255,107,0,0.4)] overflow-hidden"
+            className="group relative inline-flex items-center gap-3 md:gap-4 px-6 py-4 md:px-8 md:py-5 bg-gradient-to-r from-brand-neon to-brand-neon-light text-bg-dark rounded-2xl shadow-[0_0_40px_rgba(255,107,0,0.4)] overflow-hidden"
           >
             <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
             <InstagramIcon className="w-8 h-8 relative z-10" />
