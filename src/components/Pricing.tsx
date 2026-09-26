@@ -124,7 +124,7 @@ export default function Pricing() {
 
               <button
                 className={cn(
-                  "w-full py-4 rounded-xl font-black font-syne text-lg uppercase tracking-wider transition-all",
+                  "w-full py-3 md:py-4 rounded-xl font-black font-syne text-base md:text-lg uppercase tracking-wider transition-all",
                   tier.popular
                     ? "bg-brand-neon text-bg-dark hover:bg-brand-neon-light"
                     : "bg-white text-black hover:bg-gray-200"
